@@ -55,7 +55,7 @@
 
 /*header*/
 
-
+/*hero*/
 
 .hero  {
     height: 43.625rem;
@@ -139,7 +139,9 @@
     width: 46rem;
     background-color: #6729FF;
 }
+/*header*/
 
+/*cartoes*/
 .cartoes{
     width: 76.0625rem;
     height: 32rem;
@@ -147,12 +149,13 @@
     padding-top: 6.125rem;
     padding-right: 7rem;
     padding-bottom: 6.5rem;
+    display: flex;
 }
 
 .texto_cartoes{
-    
+    padding-right: 4.4375rem;
     width: 26.125rem;
-    height: 16rem;
+   
 
 }
 .cartoes{
@@ -160,8 +163,12 @@
     font-size: 1rem;
     font-family: 'Poppins';
     color:#6729FF;
+    
 }
+
 .cartoes_texto{
+    width: 24.0625rem;
+    height: 6rem;
     font-weight: 500;
     font-size: 2.5rem;
     font-family: 'Outfit';
@@ -174,7 +181,25 @@
     color: #64748b;
 }
 
+.cards{
+    height:  32rem;
+    width: 45.5rem;
+}
 
+.cards_titulo{
+    font-family: 'Outfit';
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #6729FF;
+}
+.cards, cards_texto{
+    font-family: 'Poppins';
+    font-size: .875rem;
+    font-weight: 400;
+    color: #64748b;
+}
+
+/*cartoes*/
 
 /*footer*/
 footer{
