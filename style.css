@@ -59,7 +59,6 @@
 
 .hero  {
     width: 97.5625rem;
-
     display: flex;
     border-bottom: solid 0.0625rem  #E2E8F0;
     flex-direction: row;
