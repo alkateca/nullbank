@@ -1,0 +1,247 @@
+
+/*header*/
+
+.header, a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    color: #94A3B8;
+}
+
+.header{
+    width: 97.5625rem;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background:  #ffffff;
+    border-color: #E2E8F0;
+    border-bottom: solid 0.0625rem  #E2E8F0;
+
+}
+
+.logo_header{
+    padding-left: 4rem;
+    padding-right: 15.5625rem;
+}
+
+.navigation_header{
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    width: 23.625rem;
+    
+
+}
+.inicio{
+    color: #6729FF;
+}
+
+.cadastro{
+    padding: 0.75rem 2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    
+}
+.botao{
+    color: white;
+    padding: 0.75rem 2rem;
+    border-radius: 0.625rem;
+    background-color: #6729FF;
+}
+
+/*header*/
+
+
+
+.hero  {
+    width: 97.5625rem;
+
+    display: flex;
+    border-bottom: solid 0.0625rem  #E2E8F0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.conteudo_texto{
+    width: 44rem;
+    height: 32.875rem;
+    padding-top: 5.5rem;
+    padding-left: 7rem;
+    justify-content:center;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.slogan{
+    width: 31.4375rem;
+    height: 13.875rem;
+    font-family: 'Outfit';
+    color: #475569;
+    font-weight: 600;
+    font-size: 4rem;
+}
+.subtexto{
+    width: 30.5rem;
+    height: 3rem;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #64748b;
+    padding-bottom: 2.5rem;
+}
+
+.abrir_conta{
+
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 1.125rem;
+   
+}
+.saiba_mais{
+    padding-left: 1.25rem;
+
+}
+.abra_conta{
+    width: 16.25rem;
+    color: #6729FF;
+    padding: 0.75rem 2rem;
+    border-radius: 0.625rem;
+    background-color: #eee5ff;
+    font-size: 1rem;
+    
+}
+
+.hr{
+    padding: 2.5rem 6.5rem;
+    width: 30.5rem;
+    color: #E2E8F0 ;
+    border-bottom: 1px solid
+}
+.avatares{
+    font-family: 'Poppins';
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #94A3B8;
+    padding-top: 2.5rem;
+    padding-bottom: 5.1875rem;
+}
+
+.imagem_conta{
+    display: flex;
+    padding-top: 5.5rem;
+    padding-left: 10.75rem;
+    padding-right: 10.875rem;
+    width: 46rem;
+    background-color: #6729FF;
+}
+
+.cartoes{
+    width: 76.0625rem;
+    height: 32rem;
+    padding-left: 6.9375rem;
+    padding-top: 6.125rem;
+    padding-right: 7rem;
+    padding-bottom: 6.5rem;
+}
+
+.texto_cartoes{
+    
+    width: 26.125rem;
+    height: 16rem;
+
+}
+.cartoes{
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: 'Poppins';
+    color:#6729FF;
+}
+.cartoes_texto{
+    font-weight: 500;
+    font-size: 2.5rem;
+    font-family: 'Outfit';
+    color: #475569;
+}
+.cartoes_subtexto{
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: 'Poppins';
+    color: #64748b;
+}
+
+
+
+/*footer*/
+footer{
+    width: 97.5625rem;
+}
+.titulo{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #64748b;
+}
+
+.links {
+    padding-top: 2.5rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    width: 76rem;
+    height: 9.75rem;
+    display: flex;
+    font-weight: 25rem;
+    font-size: 1rem;
+    font-family: 'Poppins'; 
+    justify-content: space-between;
+}
+
+.paravc{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem 
+
+}
+.nullbank{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem
+
+} 
+.Serviços{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem
+
+} 
+.Suporte{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem
+
+}
+.Newsletter{
+    width: 17.5rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.75rem;
+
+}
+
+.direitos{
+    padding-right: 4rem;
+
+    padding-left: 4rem;
+    padding-top: 6.8125rem; 
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins';
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+.logo_footer{
+    padding: 0.1875rem 19.5rem;
+}
