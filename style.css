@@ -8,7 +8,7 @@
 }
 
 .header{
-    width: 97.5625rem;
+    width: 90rem;
     position: sticky;
     top: 0;
     display: flex;
@@ -58,7 +58,8 @@
 
 
 .hero  {
-    width: 97.5625rem;
+    height: 43.625rem;
+    width: 90rem;
     display: flex;
     border-bottom: solid 0.0625rem  #E2E8F0;
     flex-direction: row;
@@ -67,8 +68,8 @@
 
 }
 .conteudo_texto{
-    width: 44rem;
-    height: 32.875rem;
+    width:  32.875rem;
+    height: 44rem;
     padding-top: 5.5rem;
     padding-left: 7rem;
     justify-content:center;
@@ -177,7 +178,7 @@
 
 /*footer*/
 footer{
-    width: 97.5625rem;
+    width: 90rem;
 }
 .titulo{
     font-size: 1rem;
