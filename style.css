@@ -184,6 +184,16 @@
 .cards{
     height:  32rem;
     width: 45.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+}
+
+.cards > *{
+    border: #E2E8F0 1px solid;
+    border-radius: 0.625rem;
 }
 
 .cards_titulo{
@@ -197,6 +207,41 @@
     font-size: .875rem;
     font-weight: 400;
     color: #64748b;
+    font-size: 14px;
+}
+
+.recompensas{
+    width: 23.875rem;
+    height: 10rem;
+    flex-direction: column;
+    padding-right: 8px;
+}
+
+.descontos{
+    width: 20.625rem;
+    height: 10rem;
+    flex-direction: column;
+}
+
+.cashback{
+    width: 19.8125rem;
+    height: 10rem;
+    flex-direction: column;
+    padding-right: 8px;
+
+}
+
+.cartao_internacional{
+    width: 24.6875rem;
+    height: 10rem;
+    flex-direction: column;
+}
+
+.carteiras_digitais{
+    width: 45.5rem;
+    height: 10rem;
+    flex-direction: column;
+    background-color: #f3f2ff;
 }
 
 /*cartoes*/
