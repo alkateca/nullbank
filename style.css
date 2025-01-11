@@ -150,6 +150,10 @@
     padding-right: 7rem;
     padding-bottom: 6.5rem;
     display: flex;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: 'Poppins';
+    color:#6729FF;
 }
 
 .texto_cartoes{
@@ -158,13 +162,7 @@
    
 
 }
-.cartoes{
-    font-weight: 700;
-    font-size: 1rem;
-    font-family: 'Poppins';
-    color:#6729FF;
-    
-}
+
 
 .cartoes_texto{
     width: 24.0625rem;
@@ -196,7 +194,7 @@
     font-weight: 600;
     color: #6729FF;
 }
-.cards, cards_texto{
+.cards_texto{
     font-family: 'Poppins';
     font-size: .875rem;
     font-weight: 400;
@@ -204,17 +202,43 @@
     font-size: 14px;
 }
 
+
+
 .recompensas{
+    display: flex;
+    flex-wrap: wrap;
     width: 23.875rem;
     height: 10rem;
     flex-direction: column;
-    padding-right: 8px;
+    margin-right: 8px;
     border: #E2E8F0 1px solid;
     border-radius: 0.625rem;
     
 }
 
+.recompensas_titulo{
+    width: 189px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 24px;
+
+}
+
+.recompensas_texto{
+    width: 340px;
+    height: 42px;
+    display: flex;
+    padding-top: 12px;
+    padding-left: 24px;
+}
+
 .descontos{
+    display: flex;
+    flex-wrap: wrap;
     width: 20.625rem;
     height: 10rem;
     flex-direction: column;
@@ -222,17 +246,61 @@
     border-radius: 0.625rem;
 }
 
-.cashback{
+.descontos_titulo{
+    width: 189px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 24px;
+
+}
+
+.descontos_texto{
+    width: 286px;
+    height: 63px;
+    display: flex;
+    padding-top: 12px;
+    padding-left: 24px;
+}
+
+.cards_cashback{
+    display: flex;
+    flex-wrap: wrap;
     width: 19.8125rem;
     height: 10rem;
     flex-direction: column;
-    padding-right: 8px;
+    margin-right: 8px;
     border: #E2E8F0 1px solid;
     border-radius: 0.625rem;
 
 }
+.cards_cashback_titulo{
+    width: 154px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 24px;
+
+}
+
+.cards_cashback_texto{
+    width: 278px;
+    height: 42px;
+    display: flex;
+    padding-top: 12px;
+    padding-left: 24px;
+
+}
 
 .cartao_internacional{
+    display: flex;
+    flex-wrap: wrap;
     width: 24.6875rem;
     height: 10rem;
     flex-direction: column;
@@ -240,16 +308,266 @@
     border-radius: 0.625rem;
 }
 
+.cartao_internacional_titulo{
+    width: 253px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 24px;
+
+}
+
+.cartao_internacional_texto{
+    width: 340px;
+    height: 42px;
+    display: flex;
+    padding-top: 12px;
+    padding-left: 24px;
+
+}
+
 .carteiras_digitais{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     width: 45.5rem;
     height: 10rem;
     flex-direction: column;
     background-color: #f3f2ff;
-    border: #E2E8F0 1px solid;
     border-radius: 0.625rem;
 }
 
+.carteiras_digitais_titulo{
+    width: 224px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 24px;
+
+}
+
+.carteiras_digitais_texto{
+    width: 344px;
+    height: 63px;
+    display: flex;
+    padding-top: 12px;
+    padding-left: 24px;
+}
+
+
+.retangulo_roxo{
+    position: relative;
+    display: flex;
+    margin-top: 30px;
+    margin-left: -30px;
+}
+
+.retangulo_branco{
+    position: relative;
+    display: flex;
+    margin-top: 38px;
+    margin-left: 36px;
+    
+}
+
 /*cartoes*/
+
+
+/*app*/
+.app{
+    display: flex;
+    height: 637px;
+    width: 1184px;
+    padding-left: 111px;
+    padding-right: 145px;
+    padding-bottom: 120px;
+}
+
+.app_texto{
+    display: flex;
+    flex-direction: column;
+    width: 592px;
+    margin-left: 104px;
+
+}
+.app_conteudo{
+    font-weight: 700;
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: #6729FF;
+    margin-bottom: 0;
+    line-height: 16px; 
+}
+.app_conteudo_subtexto{
+    font-weight: 400;
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: #64748b;
+    width: 488px;
+    margin-bottom: 4rem;
+    line-height: 24px;
+
+}
+
+.app_conteudo_titulo{
+    font-weight: 500;
+    font-family: 'Outfit';
+    font-size: 40px;
+    color: #475569;
+    width: 416px;
+    height: 96px;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    line-height: 48px;
+}
+
+.app_imagem{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 637px;
+    width: 592px;
+    background-image: linear-gradient(to top, #EEE5FF 65%, white 35%);
+    border-radius: 0.625rem;
+
+    
+}
+
+
+.app_cashback{
+    width: 488px;
+    height: 77px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.cashback_img{
+    position: absolute;
+    align-content: center;
+    width: 48px;
+    background-color:#6729FF;
+    border-radius: 0.625rem;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cashback_texto{
+    display: flex; 
+    flex-wrap: wrap;  
+    width: 424px;
+    height: 77px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: #64748b;
+    padding-left: 64px;
+}
+
+
+
+.app_ofertas{
+    width: 488px;
+    height: 77px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+
+}
+
+.ofertas_img{
+    position: absolute;
+    align-content: center;
+    width: 48px;
+    background-color:#6729FF;
+    border-radius: 0.625rem;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ofertas_texto{
+    display: flex; 
+    flex-wrap: wrap;  
+    width: 424px;
+    height: 53px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: #64748b;
+    padding-left: 64px;
+}
+
+.app_segurancao{
+    width: 488px;
+    height: 77px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+    
+}
+
+.segurancao_img{
+    position: absolute;
+    align-content: center;
+    width: 48px;
+    background-color:#6729FF;
+    border-radius: 0.625rem;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.segurancao_texto{
+    display: flex; 
+    flex-wrap: wrap;  
+    width: 424px;
+    height: 53px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: #64748b;
+    padding-left: 64px;
+}
+
+
+/*app*/
+
+
+
+/*download*/
+
+.download{
+    display: flex;
+    width: 1440;
+    background-color: #6729FF;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/*download*/
+
+
+/*cta*/
+.cta{
+    display: flex;
+    width: 1440;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/*cta*/
+
 
 /*footer*/
 footer{
