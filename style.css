@@ -18,6 +18,7 @@
     background:  #ffffff;
     border-color: #E2E8F0;
     border-bottom: solid 0.0625rem  #E2E8F0;
+    z-index: 101;
 
 }
 
@@ -435,7 +436,7 @@
     width: 592px;
     background-image: linear-gradient(to top, #EEE5FF 65%, white 35%);
     border-radius: 0.625rem;
-
+    
     
 }
 
@@ -549,11 +550,110 @@
 
 .download{
     display: flex;
-    width: 1440;
+    width: 1440px;
+    height: 534px;
     background-color: #6729FF;
-    flex-direction: column;
-    flex-wrap: wrap;
+
 }
+
+.download_texto{
+    width: 539px;
+    height: 277.31px;
+    margin-left: 112px;
+    margin-top: 140px;
+    margin-bottom: 118px;
+}
+
+.download_texto{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.download_titulo{
+    width: 536px;
+    height: 95px;
+    font-family: 'Outfit';
+    font-weight: 500;
+    font-size: 40px;
+    color: #f8fafc;
+}
+
+.download_subtexto{
+    display: flex;
+    margin-top: 16px;
+    width: 485px;
+    height: 47px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    color: #E2E8F0;
+    margin-right: 26px;
+
+}
+
+
+.download_botao{
+    align-items: center;
+    width: 500px;
+    height: 47px;
+    font-weight: 600;
+    display: flex;
+    align-items: start;
+    padding-top: 48px;
+    flex-wrap: wrap;
+    
+}
+.playstore{
+    display: flex;
+    border-radius: 0.625rem;
+    background-color: #f3f2ff;
+    font-size: 16px;
+    color: #6729FF;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-right: 16px;
+}
+
+.applestore{
+    display: flex;
+    border-radius: 0.625rem;
+    background-color: #f3f2ff;
+    font-size: 16px;
+    color: #6729FF;
+    padding-right: 16px;
+    padding-left: 16px;
+
+}
+
+
+.download_cartoes{
+    display: flex;
+    width: 574px;
+    height: 455.29px;
+    padding-right: 112px;
+    padding-top: 79px;
+}
+
+
+.download_preto{
+    position: relative;
+    display: flex;
+    margin-top: 78px;
+    margin-left: -267px;
+
+    
+}
+.download_roxo{
+    position: relative;
+    display: flex;
+    margin-top: 138px;
+    margin-right: -306px;
+    margin-left: 287px;
+
+}
+
+
 
 /*download*/
 
@@ -561,10 +661,34 @@
 /*cta*/
 .cta{
     display: flex;
-    width: 1440;
-    flex-direction: column;
-    flex-wrap: wrap;
+    width: 1440px;
 }
+
+.venha_ser{
+    width: 641px;
+    height: auto;
+    position: absolute;
+    color: #ffffff;
+    font-family: 'Outfit';
+    font-weight: 500;
+    font-size: 96px;
+    padding-left: 400px;
+}
+
+.cta_botao > *{
+    position: absolute;
+    width: 182px;
+    border-radius: 0.625rem;
+    background-color: #6729FF;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px;
+    margin-left: 229px;
+    margin-bottom: 96px;
+}
+
 
 /*cta*/
 
