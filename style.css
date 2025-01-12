@@ -1,10 +1,10 @@
 
 /*header*/
 
-.header, a{
+a{
     text-decoration: none;
-    font-family: 'Poppins';
     color: #94A3B8;
+
 }
 
 .header{
@@ -32,7 +32,7 @@
     display: flex;
     justify-content: space-between;
     width: 23.625rem;
-    
+    font-family: 'Poppins';
 
 }
 .inicio{
@@ -45,6 +45,9 @@
     display: flex;
     align-items: center;
     gap: 2.5rem;
+    font-family: 'Poppins';
+    color: #94A3B8;
+
     
 }
 .botao{
@@ -52,6 +55,8 @@
     padding: 0.75rem 2rem;
     border-radius: 0.625rem;
     background-color: #6729FF;
+    font-family: 'Poppins';
+    color: #ffffff;
 }
 
 /*header*/
@@ -62,42 +67,48 @@
     height: 43.625rem;
     width: 90rem;
     display: flex;
-    border-bottom: solid 0.0625rem  #E2E8F0;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    border-color: #E2E8F0;
+    border-bottom: solid 0.0625rem  #E2E8F0;
 
 }
 .conteudo_texto{
     width:  32.875rem;
-    height: 44rem;
+    height: 698px;
     padding-top: 5.5rem;
     padding-left: 7rem;
+    padding-right: 89px;
     justify-content:center;
-    background-color: #ffffff;
     display: flex;
     flex-direction: column;
+    
 }
 .slogan{
+    display: flex;
     width: 31.4375rem;
     height: 13.875rem;
     font-family: 'Outfit';
     color: #475569;
     font-weight: 600;
     font-size: 4rem;
+    margin-bottom: 24px;
 }
 .subtexto{
+    display: flex;
     width: 30.5rem;
     height: 3rem;
     font-family: 'Poppins';
     font-weight: 400;
     font-size: 1rem;
     color: #64748b;
-    padding-bottom: 2.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .abrir_conta{
 
+    height: 40px;
     font-family: 'Poppins';
     font-weight: 600;
     font-size: 1.125rem;
@@ -118,28 +129,132 @@
 }
 
 .hr{
-    padding: 2.5rem 6.5rem;
+    margin-top: 40px;
     width: 30.5rem;
     color: #E2E8F0 ;
     border-bottom: 1px solid
 }
 .avatares{
+    width: 190px;
+    display: flex;
+    flex-wrap: wrap;
     font-family: 'Poppins';
     font-size: 0.875rem;
     font-weight: 500;
     color: #94A3B8;
     padding-top: 2.5rem;
-    padding-bottom: 5.1875rem;
+    
 }
 
 .imagem_conta{
     display: flex;
     padding-top: 5.5rem;
     padding-left: 10.75rem;
-    padding-right: 10.875rem;
     width: 46rem;
     background-color: #6729FF;
 }
+
+.semtaxas{
+    position: relative;
+    background-color: white;
+    display: flex;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 500;
+    width: 207px;
+    height: 48px;
+    margin-top: 95px;
+    margin-left: -130px;
+    border-radius: 10px;
+    align-items: center;
+    align-content: space-between;
+    box-shadow: 1px 1px 1px lightslategray;
+
+
+} 
+
+.semtaxas_imagem{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #EEE5FF;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-right: 10px;
+    border-radius: 10px;
+
+}
+
+.pagamentosmundo{
+    position: relative;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 500;
+    width: 284px;
+    height: 48px;
+    margin-top: 327px;
+    margin-left: -610px;
+    border-radius: 10px;
+    align-items: center;
+    align-content: center;
+    box-shadow: 1px 1px 1px lightslategray;
+
+} 
+
+.pagamentosmundo_imagem{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #EEE5FF;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+
+.pensandoemvc{
+    position: relative;
+    background-color: white;
+    display: flex;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 500;
+    width: 236px;
+    height: 48px;
+    margin-top: 463px;
+    margin-left: 150px;
+    border-radius: 10px;
+    align-items: center;
+    align-content: center;
+    box-shadow: 1px 1px 1px lightslategray;
+
+
+}
+
+.pensandoemvc_imagem{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #EEE5FF;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
 /*header*/
 
 /*cartoes*/
@@ -162,6 +277,12 @@
     width: 26.125rem;
    
 
+}
+
+.maisinfos{
+    display: flex;
+    justify-content: space-between;
+    width: 214px;
 }
 
 
@@ -385,9 +506,9 @@
     display: flex;
     height: 637px;
     width: 1184px;
-    padding-left: 111px;
-    padding-right: 145px;
-    padding-bottom: 120px;
+    margin-left: 111px;
+    margin-right: 145px;
+    margin-bottom: 120px;
 }
 
 .app_texto{
@@ -435,10 +556,9 @@
     height: 637px;
     width: 592px;
     background-image: linear-gradient(to top, #EEE5FF 65%, white 35%);
-    border-radius: 0.625rem;
-    
-    
+    border-radius: 0.625rem;    
 }
+
 
 
 .app_cashback{
@@ -613,17 +733,24 @@
     padding-right: 16px;
     padding-left: 16px;
     margin-right: 16px;
+    gap: 12px;
 }
 
 .applestore{
     display: flex;
     border-radius: 0.625rem;
     background-color: #f3f2ff;
-    font-size: 16px;
-    color: #6729FF;
+
     padding-right: 16px;
     padding-left: 16px;
+    gap: 12px;
 
+
+}
+
+.applestore > a{
+    font-size: 16px;
+    color: #6729FF;
 }
 
 
@@ -747,6 +874,45 @@ footer{
     font-size: 0.75rem;
 
 }
+
+.email_newsletter{
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 8px;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+    height: 40px;
+    border: #E2E8F0 1px solid;
+    border-radius: 10px;
+}
+
+.form_newsletter{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.arrow_newsletter{
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    width: 32px;
+    height: 32px;
+    background-color: #6729FF;
+    margin-left: 63px;
+}
+
+.redes{
+    padding-top: 24px;
+    width: 167px;
+    justify-content: space-between; 
+    display: flex;
+}
+
 
 .direitos{
     padding-right: 4rem;
