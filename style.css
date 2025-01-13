@@ -35,7 +35,7 @@ a{
     font-family: 'Poppins';
 
 }
-.inicio{
+.pagina_atual{
     color: #6729FF;
 }
 
@@ -876,6 +876,7 @@ footer{
 }
 
 .email_newsletter{
+    display: flex;
     padding-right: 4px;
     padding-top: 4px;
     padding-bottom: 4px;
@@ -886,16 +887,21 @@ footer{
     height: 40px;
     border: #E2E8F0 1px solid;
     border-radius: 10px;
+    position: relative;
+
 }
 
 .form_newsletter{
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
-
+    position: relative;
+    width: 280px;
+    justify-content: space-between;
 }
 
 .arrow_newsletter{
+    position: relative;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
@@ -903,7 +909,6 @@ footer{
     width: 32px;
     height: 32px;
     background-color: #6729FF;
-    margin-left: 63px;
 }
 
 .redes{
@@ -927,4 +932,306 @@ footer{
 }
 .logo_footer{
     padding: 0.1875rem 19.5rem;
+}
+
+.topo_contato{
+    width: 1440px;
+    height: 340px;
+    background-color: #6729FF;
+}
+
+.topo_contato_titulo{
+    width: 944px;
+    height: 148px;
+    font-family: 'Outfit';
+    font-weight: 600;
+    font-size: 64px;
+    color: white;
+    padding-top: 64px;
+    padding-left: 112px;
+    padding-right: 384px;
+}
+
+.topo_contato_subtitulo{
+    width: 416px;
+    height: 48px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    padding-top: 16px;
+    padding-left: 112px;
+}
+
+.formulario_telefone{
+    width: 1216px;
+    height: 145px;
+    padding-left: 112px;
+    padding-top: 64px;
+    display: flex; 
+}
+
+.formulario_telefone_interno{
+    width: 1008px;
+    height: 80px;
+    display: flex;
+    padding-left: 104px;
+    justify-items: center;
+}
+
+.formulario_telefone_imagem{
+    display: flex;
+    height: 71px;
+    width: 48px;
+    align-items: start;
+    margin-top: 4,5px;
+}
+
+.formulario_telefone_titulo{
+    align-items: center;
+    display: flex;
+    font-family: 'Outfit';
+    font-weight: 500;
+    font-size: 32px;
+    height: 71px;
+    width: 407px;
+    flex-wrap: wrap;
+     
+}
+
+.formulario_telefone_subtitulo{
+    margin-top: 12px;
+    display: flex;
+    height: 21px;
+    width: 407px;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.formulario_contato_numeros{
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 374px;
+    height: 48px;
+    padding-left: 179px;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+.formulario_redes{
+    padding-top: 64px;
+    width: 1216px;
+    height: 136px;
+    padding-left: 112px;
+    padding-top: 64px;
+    display: flex; 
+}
+
+.formulario_redes_interno{
+    width: 1008px;
+    height: 71px;
+    display: flex;
+    padding-left: 104px;
+    justify-items: center;
+}
+
+.formulario_redes_imagem{
+    display: flex;
+    height: 71px;
+    width: 48px;
+    align-items: start;
+    margin-top: 4,5px;
+}
+
+.formulario_redes_titulo{
+    align-items: center;
+    display: flex;
+    font-family: 'Outfit';
+    font-weight: 500;
+    font-size: 32px;
+    height: 71px;
+    width: 463px;
+    flex-wrap: wrap;
+     
+}
+
+.formulario_redes_subtitulo{
+    margin-top: 12px;
+    display: flex;
+    height: 21px;
+    width: 463px;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.formulario_redes_redes{
+    justify-content: space-between;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 168px;
+    height: 24px;
+    padding-left: 329px;
+    padding-top: 23.5px;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.formulario_conosco{
+    padding-top: 64px;
+    width: 1216px;
+    height: 518px;
+    padding-left: 112px;
+    padding-top: 64px;
+    display: flex; 
+}
+
+.formulario_conosco_interno{
+    width: 1008px;
+    height: 518px;
+    display: flex;
+    padding-left: 104px;
+    justify-items: center;
+}
+
+.formulario_conosco_imagem{
+    display: flex;
+    height: 113px;
+    width: 48px;
+    align-items: start;
+    margin-top: 4,5px;
+}
+
+.formulario_conosco_titulo{
+    align-items: center;
+    display: flex;
+    font-family: 'Outfit';
+    font-weight: 500;
+    font-size: 32px;
+    height: 113px;
+    width: 274px;
+    flex-wrap: wrap;
+     
+}
+
+.formulario_conosco_subtitulo{
+    margin-top: 12px;
+    display: flex;
+    height: 113px;
+    width: 274px;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.formulario_conosco_redes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 593px;
+    height: 518px;
+    padding-left: 415px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+input[type=text]{
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+label{
+    font-family: 'Outfit';
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.formulario_conosco_formulario{
+    width: 593px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.formulario_conosco_nome{
+    width: 281px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: solid 1px #E2E8F0;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    margin-right: 25px;
+
+}
+
+.formulario_conosco_sobrenome{
+    width: 281px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: solid 1px #E2E8F0;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.formulario_conosco_email{
+    width: 593px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: solid 1px #E2E8F0;
+    border-radius: 10px;
+    padding-bottom: 20px;
+
+}
+
+.formulario_conosco_mensagem{
+    width: 593px;
+    height: 278px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-right: 31px;
+    border: solid 1px #E2E8F0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+.formulario_enviar{
+    width: 215px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 8.5px;
+    background-color: #6729FF;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: #EEE5FF;
 }
