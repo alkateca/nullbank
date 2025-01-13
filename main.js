@@ -1,13 +1,14 @@
+
+
+function setStorage(){
 const arr = [];
 let nome = document.getElementById('formularioNome').value;
 let sobrenome = document.getElementById('formularioSobrenonome').value;
 let formularioEmail = document.getElementById('formularioEmail');
 let mensagem = document.getElementById('formularioEensagem').value;
 
-arr.push(nome, sobrenome, formularioEmail, mensagem);
-
-function setStorage(){
-    localStorage.setItem('mensagem',arr);
+arr.push(nome, sobrenome, mensagem);
+    localStorage.setItem(formularioEmail.value,arr);
     return;
 }
 
@@ -33,8 +34,3 @@ function retornoValidacao(){
 
     }
 }
-
-
-
-
-
