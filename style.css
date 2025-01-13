@@ -966,9 +966,10 @@ footer{
 .formulario_telefone{
     width: 1216px;
     height: 145px;
-    padding-left: 112px;
+    margin-left: 112px;
     padding-top: 64px;
     display: flex; 
+    border-bottom: solid 1px #E2E8F0;
 }
 
 .formulario_telefone_interno{
@@ -1030,9 +1031,11 @@ footer{
     padding-top: 64px;
     width: 1216px;
     height: 136px;
-    padding-left: 112px;
+    margin-left: 112px;
     padding-top: 64px;
     display: flex; 
+    border-bottom: solid 1px #E2E8F0;
+
 }
 
 .formulario_redes_interno{
@@ -1150,13 +1153,17 @@ footer{
 
 
 input[type=text]{
+    outline: solid 1px #94A3B8;
     display: flex;
-    border: none;
-    border-radius: 10px;
+    border: 1px;
+    border-radius: 5px;
     font-family: 'Poppins';
     font-size: 14px;
     font-weight: 400;
-
+    color: #94A3B8;
+    padding-left: 8px;
+    opacity: 1;
+    
 }
 
 label{
@@ -1170,6 +1177,7 @@ label{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-left: 97px;
 }
 
 .formulario_conosco_nome{
@@ -1178,7 +1186,6 @@ label{
     display: flex;
     flex-direction: column;
     gap: 8px;
-    border: solid 1px #E2E8F0;
     border-radius: 10px;
     padding-bottom: 20px;
     margin-right: 25px;
@@ -1186,12 +1193,12 @@ label{
 }
 
 .formulario_conosco_sobrenome{
+    align-content: start;
     width: 281px;
     height: 40px;
     display: flex;
     flex-direction: column;
     gap: 8px;
-    border: solid 1px #E2E8F0;
     border-radius: 10px;
     padding-bottom: 20px;
 }
@@ -1202,7 +1209,6 @@ label{
     display: flex;
     flex-direction: column;
     gap: 8px;
-    border: solid 1px #E2E8F0;
     border-radius: 10px;
     padding-bottom: 20px;
 
@@ -1215,11 +1221,12 @@ label{
     flex-direction: column;
     gap: 8px;
     padding-right: 31px;
-    border: solid 1px #E2E8F0;
     border-radius: 10px;
     margin-bottom: 20px;
 
 }
+
+
 
 .formulario_enviar{
     width: 215px;
@@ -1234,4 +1241,21 @@ label{
     font-family: 'Poppins';
     font-size: 16px;
     color: #EEE5FF;
+    margin-left: 345px;
+    margin-bottom: 20px;
+}
+
+
+button {
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor:pointer;
+}
+
+.confirmarEmail{
+    margin-top: 12px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: #475569;
 }

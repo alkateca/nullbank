@@ -84,12 +84,14 @@
                 <a >Receba novidades e dicas financeiras diretamente no seu email.</a>
                 <div class="email_newsletter">
                     <div class="form_newsletter">
-                        <input type="text" value="email@exemplo.com"></input>
+                        <input type="text" id="validarEmail" value="email@exemplo.com"></input>
                         <div class="arrow_newsletter">
-                            <img src="imagens\arrow-right (1).svg" height="16px" width="16px">
+                            <button><img src="imagens\arrow-right (1).svg" onclick="retornoValidacao()" height="16px" width="16px"></button>
                         </div>
                     </div>
                 </div>
+                <a class="confirmarEmail" id="confirmarEmail"></a>
+
                 <div class="redes">
                     <a href="https://www.facebook.com/?locale=pt_BR" target="_blank" 
                     rel="noopener noreferrer"><img src="imagens\facebook.svg"></a>

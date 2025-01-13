@@ -99,24 +99,26 @@
             <div class="formulario_conosco_formulario">
                 <div class="formulario_conosco_nome">
                     <label>Nome</label>
-                    <input type="text" value="Nulito"></input>
+                    <input type="text" value="Nulito" id="formularioNome" style="width:281px; height: 40px;"></input>
                 </div>
                 <div class="formulario_conosco_sobrenome">
                     <label>Sobrenome</label>
-                    <input type="text" value="Da silva"></input>
+                    <input type="text" value="Da silva" id="formularioSobrenonome" style="width:281px; height: 40px;"></input>
                 </div>
                 <div class="formulario_conosco_email">
                     <label>Email</label>
-                    <input type="text" value="email@exemplo.com"></input>
+                    <input type="text" value="email@exemplo.com" id="validarEmail" style="width:593px; height: 40px;"></input>
                 </div>
                 <div class="formulario_conosco_mensagem">
                     <label>Mensagem</label>
-                    <input type="text" value="Escreva sua mensagem aqui"></input>
+                    <input type="text" value="Escreva sua mensagem aqui" id="formularioEensagem" style="width:593px; height: 278px;"></input>
                 </div>
-                <div class="formulario_enviar">
+                <button>
+                <div class="formulario_enviar" >
                     <p>Enviar mensagem</p>
-                    <img src="imagens\arrow-right (1).svg" height="24px" width="24px">
-                </div>
+                    <img src="imagens\arrow-right (1).svg"  height="24px" width="24px">
+                </div onclick="setStorage()">
+                </button>
             </div>
         </div>
     </div>
@@ -168,12 +170,14 @@
                 <a >Receba novidades e dicas financeiras diretamente no seu email.</a>
                 <div class="email_newsletter">
                     <div class="form_newsletter">
-                        <input type="text" value="email@exemplo.com"></input>
+                        <input type="text" id="validarEmail" value="email@exemplo.com"></input>
                         <div class="arrow_newsletter">
-                            <img src="imagens\arrow-right (1).svg" height="16px" width="16px">
+                            <button><img src="imagens\arrow-right (1).svg" onclick="retornoValidacao()" height="16px" width="16px"></button>
                         </div>
                     </div>
                 </div>
+                <a class="confirmarEmail" id="confirmarEmail"></a>
+
                 <div class="redes">
                     <a href="https://www.facebook.com/?locale=pt_BR" target="_blank" 
                     rel="noopener noreferrer"><img src="imagens\facebook.svg"></a>
